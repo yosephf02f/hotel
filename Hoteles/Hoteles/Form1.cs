@@ -19,7 +19,47 @@ namespace Hoteles
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola mundo");
+            var habitacion1 = new Habitacion();
+            habitacion1.Id = 1;
+            habitacion1.Descripcion = "Habitacion Sencilla";
+            habitacion1.Precio = 1000;
+
+
+
+
+            var habitacion2 = new Habitacion();
+            habitacion2.Id = 2;
+            habitacion2.Descripcion = "Habitacion Doble";
+            habitacion2.Precio = 1500;
+
+            var listaDeHabitaciones = new List<Habitacion>();
+            listaDeHabitaciones.Add(habitacion1);
+            listaDeHabitaciones.Add(habitacion2);
+
+            foreach (var h in listaDeHabitaciones)
+            {
+                MessageBox.Show(h.Descripcion);
+            }
+
+
+
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
