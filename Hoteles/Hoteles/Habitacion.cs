@@ -10,6 +10,9 @@ namespace Hoteles
     {
         public int Id { get; set; }
         public string Descripcion { get; set; } // es desir que Tipo de habitasion
-        public double Precio { get; set; }
+        public int Precio { get; set; }
+        public Categoria Categoria { get; set; }
+
+
     }
 }
