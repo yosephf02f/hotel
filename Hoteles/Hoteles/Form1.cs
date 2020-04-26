@@ -17,8 +17,13 @@ namespace Hoteles
         {
             InitializeComponent();
 
+
+
             var habitacionesBL = new HabitacionesBL();
             listaDeHabitacionesBindingSource.DataSource = habitacionesBL.ListaDeHabitaciones;
+
+
+
 
             var categoriasBL = new CategoriasBL();
             listaDeCategoriasBindingSource.DataSource = categoriasBL.ListaDeCategorias;

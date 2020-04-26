@@ -22,10 +22,11 @@ namespace Hoteles.BL
         {
             var categoria1 = new Categoria(1, "Habitaciones");
             var categoria2 = new Categoria(2, "Cervicio al cliente");
+  //          var categoria3 = new Categoria(3, "Historial de Clientes");  //no se si dejarlo
 
             ListaDeCategorias.Add(categoria1);
             ListaDeCategorias.Add(categoria2);
-
+     //       ListaDeCategorias.Add(categoria3);
 
         } 
 
